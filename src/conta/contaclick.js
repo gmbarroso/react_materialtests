@@ -16,7 +16,7 @@ import Button from 'material-ui/Button';
 
 //     maisUm = () => this.setState({ clicks: this.state.clicks + 1 });
 //     menosUm = () => this.setState({ clicks: this.state.clicks - 1 });
-    
+
 
 //     render() {
 //         return (
@@ -42,7 +42,7 @@ const styles = {
     menosUm: {
         marginLeft: 10,
     }
-}
+}  
 
 class ContaClick extends React.Component {
 
@@ -56,7 +56,7 @@ class ContaClick extends React.Component {
 
     maisUm = () => this.setState({ clicks: this.state.clicks + 1 });
     menosUm = () => this.setState({ clicks: this.state.clicks - 1 });
-    
+
 
     render() {
         return (
@@ -68,7 +68,7 @@ class ContaClick extends React.Component {
                 <Button variant="raised" color="primary" onClick={this.maisUm}>
                     +1
                 </Button>
-                <Button className ={this.props.classes.menosUm} variant="raised" color="secondary" onClick={this.menosUm}>
+                <Button className={this.props.classes.menosUm} variant="raised" color="secondary" onClick={this.menosUm}>
                     -1
                 </Button>
             </div>

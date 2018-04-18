@@ -30,12 +30,7 @@
   to { transform: rotate(360deg); }
 } */
 
-.container {
-  margin: 50px;
-}
-
 .testfontGoogle {
   margin-top: 10px !important;
   font-family: 'Roboto Condensed', sans-serif !important;
-  
 }

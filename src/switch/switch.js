@@ -21,10 +21,12 @@ class Switches extends React.Component {
 
     render() {
         return (
+            // <div>
             <Fragment>
                 <Switch className="printState" checked={this.state.checkedA} onChange={this.handleChange('checkedA')} value="checkedA" />
                 <span>{this.state.checkedA.toString()}</span>
             </Fragment>
+            // </div>
         )
     }
 }

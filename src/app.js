@@ -9,6 +9,9 @@ import Button from 'material-ui/Button';
 
 import Switches from './switch/switch';
 
+import ExpandPanel from './expansionpanel/expansionpanel';
+import CardExemplo from './card/card';
+
 class App extends Component {
 
   render() {
@@ -38,8 +41,13 @@ class App extends Component {
             {/* <Switch checked={this.state.checkedA} onChange={this.handleChange('checkedA')} value="checkedA" /> */}
             <Switches />
           </div>
+          <div>
+            <ExpandPanel />
+          </div>
+          <div>
+            <CardExemplo className="card" />
+          </div>
         </div>
-
       </div>
 
     );
